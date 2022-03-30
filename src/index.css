@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack:#000;
+$mainGreen:green;
+$mainWhite:whitesmoke;
+$mainGrey:#ececec;
+
+body{
+  font-family: 'Ruda', sans-serif;
+  color: #222;
+}

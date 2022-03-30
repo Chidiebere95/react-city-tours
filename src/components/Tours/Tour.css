@@ -1,0 +1,71 @@
+.tour{
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+    background-color: #ececec;
+    /* width: 70vw; */
+    border-radius: 2rem;
+
+}
+.img-container{
+    position: relative;
+}
+.img-container img{
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.bottom{
+    padding-left: .5rem;
+    padding-top: 1rem;
+}
+.font{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 3rem;
+    color: #82b340;
+    opacity: 0;
+    transition: all .3s linear;
+    cursor: pointer;
+} 
+.img-container:hover .font{
+    opacity: 1;
+}
+h3{
+    color: #82b340;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+h4{
+text-transform: capitalize;
+margin: .3rem 0 .5rem 0;
+font-size: 1.2rem;
+color: #222;
+}
+h5{
+    color: black;
+    text-transform: capitalize;
+    /* padding-bottom: 3rem; */
+    font-size: 1rem;
+}
+h5 i{
+    color: #82b340;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+body{
+    font-family: monospace;
+}
+p{
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
